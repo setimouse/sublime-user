@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[\$arrIns = array(
+    '${2:key}' => \$${2:value},
+);
+return self::doInsert('${1:table}', \$arrIns);
+]]></content>
+    <tabTrigger>ins</tabTrigger>
+    <scope>source.php</scope>
+    <description>arrIns</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[DAssert::assertNumeric(\$${1});
+]]></content>
+    <tabTrigger>assertNumeric</tabTrigger>
+    <scope>source.php</scope>
+    <description>DAssert::assertNumeric</description>
+</snippet>

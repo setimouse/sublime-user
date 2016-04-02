@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[\$arrUpd = array(
+    '${3:key}' => \$${3:value},
+);
+\$where = "${5}";
+return self::doUpdate('${1:table}', \$arrUpd, \$where, ${2:1});
+]]></content>
+    <tabTrigger>upd</tabTrigger>
+    <scope>source.php</scope>
+    <description>arrUpd</description>
+</snippet>

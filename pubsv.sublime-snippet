@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[public static \$${1:var};
+]]></content>
+    <tabTrigger>pubsv</tabTrigger>
+    <scope>source.php</scope>
+    <description>public static $var</description>
+</snippet>

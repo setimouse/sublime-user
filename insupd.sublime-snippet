@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[\$arrIns = array(
+    '${2:key}' => \$${2:value},
+);
+\$arrUpd = array(
+    '${4:key}' => \$${4:value},
+);
+return self::doInsertUpdate('${1:table}', \$arrIns, \$arrUpd);
+]]></content>
+    <tabTrigger>insupd</tabTrigger>
+    <scope>source.php</scope>
+    <description>doInsertUpdate</description>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[private \$${1:var};
+]]></content>
+    <tabTrigger>priv</tabTrigger>
+    <scope>source.php</scope>
+    <description>private $var</description>
+</snippet>

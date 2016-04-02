@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[protected static \$${1:var};
+]]></content>
+    <tabTrigger>prosv</tabTrigger>
+    <scope>source.php</scope>
+    <description>protected static $var</description>
+</snippet>

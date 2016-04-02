@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[private static function ${1:func}(${2}) {
+	${0:# code...}
+}
+
+]]></content>
+    <tabTrigger>prisf</tabTrigger>
+    <scope>source.php</scope>
+    <description>private static function</description>
+</snippet>

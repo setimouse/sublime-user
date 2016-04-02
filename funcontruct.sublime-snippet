@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[function __construct(${1}) {
+	${0:# code...}
+}
+
+]]></content>
+    <tabTrigger>funcontruct</tabTrigger>
+    <scope>source.php</scope>
+    <description>function __construct</description>
+</snippet>

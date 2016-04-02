@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[private function ${1:func}(${2}) {
+    ${0:# code...}
+}
+
+]]></content>
+    <tabTrigger>prif</tabTrigger>
+    <scope>source.php</scope>
+    <description>private function</description>
+</snippet>

@@ -1,5 +1,0 @@
-{
-    //   GOOD: "command": "/usr/bin/ctags"
-    //   BAD:  "command": "ctags -R -f .tags --exclude=some/path"
-    "command": "d:\\ctags"
-}

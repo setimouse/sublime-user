@@ -1,20 +1,20 @@
 <snippet>
     <content><![CDATA[/**
  *
- * Filename: ${1:Classname}.class.php
+ * Filename: $TM_FILENAME
  *
- * @author liyan
- * @since 2016 3 23
+ * @author ${1:liyan}
+ * @since ${2:date}
  */
-class ${1:Classname} extends ${2:BaseAction} {
+class ${10:Classname} extends ${20:BaseAction} {
 
-    public function execute() {
-        ${3:// code}
+    public function ${90:execute}(${91}) {
+        ${100:// code}
     }
 
 }
 ]]></content>
-    <tabTrigger>classaction</tabTrigger>
+    <tabTrigger>clsaction</tabTrigger>
     <scope>source.php</scope>
     <description>class Action</description>
 </snippet>

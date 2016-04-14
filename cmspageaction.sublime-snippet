@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[/**
+ *
+ * Filename: $TM_FILENAME
+ *
+ * @author ${1:liyan}
+ * @since ${2:date}
+ */
+class ${10:Classname} extends CMSPageBaseAction {
+
+    protected function cmsPageAction(MCMSUser \$user) {
+        ${100://todo}
+        \$this->title = '';
+        \$this->page = '';
+    }
+
+    protected function topMenuKey() {
+        return ${50:TM_HOME};
+    }
+
+}
+]]></content>
+    <tabTrigger>cmspageaction</tabTrigger>
+    <scope>source.php</scope>
+    <description>CMSPageBaseAction</description>
+</snippet>
